@@ -87,6 +87,7 @@ a:hover { text-decoration: underline; }
 .store-btn:hover { text-decoration: none; opacity: .92; }
 .store-btn .small { font-size: 11px; opacity: .8; display: block; line-height: 1; }
 .store-btn .big { font-size: 16px; font-weight: 700; }
+.store-btn svg { width: 26px; height: 26px; flex-shrink: 0; }
 .store-btn.disabled {
   background: #efefef; color: var(--muted); border-color: var(--line); cursor: not-allowed;
 }
